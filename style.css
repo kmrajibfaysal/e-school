@@ -66,7 +66,7 @@ p {
   color: #949796;
 }
 
-.card {
+.card-c {
   height: 100%;
   align-items: center;
   border: none;
@@ -74,10 +74,14 @@ p {
   background-color: #f8fffb;
 }
 
-.card-body {
+.curriculum {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.card-body-c {
   text-align: center;
 }
-.card img {
+.card-c img {
   width: 70px;
   height: 90px;
   margin-top: 50px;
@@ -89,14 +93,44 @@ p {
   color: #949796;
 }
 
-h4 {
+h4,
+h2 {
   color: #413960;
 }
 
+h2 {
+  font-weight: 700;
+}
 .card-students {
   height: 100%;
   align-items: center;
   border: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
+}
+
+.card-courses {
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.special-card-img {
+  padding: 20px;
+}
+
+.course-heading {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.card-footer {
+  border: none;
+  background-color: white;
+}
+
+.date img ,
+.seat img {
+  width: 24px;
+  height: 24px;
 }
