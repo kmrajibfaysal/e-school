@@ -1,5 +1,10 @@
-.top-part{
-    background-color: #F0FFF0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.top-part {
+  background-color: #f0fff0;
 }
 
 .container {
@@ -21,4 +26,25 @@
   background-color: #21b573;
   border: none;
   color: white;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.any-schedule {
+  color: #21b573;
+}
+
+h6 {
+  color: #fd511a;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+p {
+  font-size: .9rem;
+  line-height: 2rem;
+  margin: 20px 0px;
 }
