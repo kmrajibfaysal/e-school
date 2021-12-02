@@ -9,6 +9,7 @@ body {
 
 .container {
   margin-top: 10px;
+  width: 100%;
 }
 
 .logo img {
@@ -30,7 +31,22 @@ body {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.banner-image img {
+  width: 100%;
+  padding: 10px;
+  margin: 30px;
+}
+
+.banner-text {
+  margin: 10px;
+}
+
+.banner {
+  margin-bottom: 42px;
 }
 
 .any-schedule {
@@ -44,7 +60,43 @@ h6 {
 }
 
 p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 2rem;
   margin: 20px 0px;
+  color: #949796;
+}
+
+.card {
+  height: 100%;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8fffb;
+}
+
+.card-body {
+  text-align: center;
+}
+.card img {
+  width: 70px;
+  height: 90px;
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 0.9rem;
+  margin: 0px;
+  color: #949796;
+}
+
+h4 {
+  color: #413960;
+}
+
+.card-students {
+  height: 100%;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
 }
