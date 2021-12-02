@@ -158,3 +158,44 @@ h2 {
 .testimonial {
   margin-top: 88px;
 }
+
+.testimonial-section {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: #282531;
+  color: white;
+  height: 370px;
+  padding-top: 48px;
+}
+
+.course-link {
+  margin: 0px 30px;
+  list-style: none;
+}
+
+.link-heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.link-heading li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.pum-text {
+  width: 450px;
+}
+
+.copyright-text {
+  margin-top: 120px;
+  text-align: center;
+  width: 100%;
+}
